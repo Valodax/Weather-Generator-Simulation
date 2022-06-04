@@ -12,9 +12,10 @@ Because there will be a fair amount of days where there is no rainfall. Seasonal
 
 A Markov Chain is a mathematical system that transits states from one to another, where any given state is dependent on the state directly before it; however, the transit can also end in the same state. In our simulation, we will specifically be using a two-state Markov Chain (our two states being dry and wet). In order to make the Markov Chain work, we will first need to specify both a dry day and rainy day. By classifying a ‘rainy day’ as one that has more than 1mm in rainfall, we can also consequently define a ‘dry day’. <br />
 
-x < 1: x = dry <br />
+<p align="center">$x < 1 : x =$ dry<br />$x \ge 1 : x =$ rainfall
+  
+<p align='center'>$Q=\left[_{P(Dry \mid Rainy)\quad \quad P(Dry \mid Dry)}^{P(Rainy \mid Rainy)\quad P(Rainy \mid Dry)}\right]$</p>
 
-x >= 1 : x = rainfall
 
 Here, our Markov Chain has two nodes (or states), dry and rainy and can be used to define a transition matrix such:
 
