@@ -18,6 +18,8 @@ A Markov Chain is a mathematical system that transits states from one to another
 
 
 Here, our Markov Chain has two nodes (or states), dry and rainy and can be used to define a transition matrix such:
+<p align="center">
+  <img width="500" src="https://raw.githubusercontent.com/Valodax/Weather-Generator-Simulation/master/Transition%20Matrix.png"></p>
 
 According to Gabriel and Neumann 1962, “several authors have found wet and dry spells to have geometric distributions”. However, upon rudimentary levels of examination we have found the exponential distribution to fit relatively well. We would also be using the chi-squared distribution to check the goodness of fit of our model.
 
