@@ -11,3 +11,8 @@
 *.sh         text eol=lf
 *.job        text eol=lf
 *.bat        text eol=crlf
+
+*.Rmd  linguist-detectable
+*.rmd  linguist-detectable
+*.Rmd  linguist-detectable
+*.[Rr]md  linguist-detectable
